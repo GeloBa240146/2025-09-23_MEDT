@@ -1,0 +1,38 @@
+.container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+
+
+    height: 500px;
+}
+
+.item {
+    background-color: red;
+    height: 100px;
+    min-width: 100px;
+}
+
+.container2 {
+    display: flex;
+
+    background-color: blue;
+    flex-direction: row;
+    gap: 10px;
+    height: 100px;
+}
+
+.item1 {
+    height: 100px;
+    background-color: red;
+    flex: 1;
+}
+
+.item2 {
+    height: 100px;
+    background-color: red;
+    flex: 5;
+}
